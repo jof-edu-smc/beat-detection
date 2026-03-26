@@ -34,39 +34,39 @@ https://craffel.github.io/mir_eval/
 
 ### Beat Tracking & Neural Networks
 
-* **Joint Beat and Downbeat Tracking with Recurrent Neural Networks** Bock, Sebastian; Krebs, Florian; Widmer, Gerhard *Abstract:* Presents a novel method for extracting beats/downbeats using RNNs on magnitude spectrograms combined with a Dynamic Bayesian Network. 
+* MatthewDavies, E. P., and Sebastian Böck. **"Temporal convolutional networks for musical audio beat tracking."** 2019 27th European Signal Processing Conference (EUSIPCO). IEEE, 2019.
+    * *Note:* Primary Implementation and usage of TCN's from this paper. 
 
 
-* **A Multi-Model Approach to Beat Tracking Considering Heterogeneous Music Styles** Böck, Sebastian; Krebs, Florian; Widmer, Gerhard *Abstract:* Extends existing systems by using multiple style-specialized RNNs to estimate beat positions. 
+* Böck, Sebastian, Florian Krebs, and Gerhard Widmer. **"A Multi-model Approach to Beat Tracking Considering Heterogeneous Music Styles."** ISMIR. 2014. 
 
 
-* **Enhanced Beat Tracking With Context-Aware Neural Networks** *Böck, Sebastian (2011)* *Abstract:* Uses bidirectional LSTM RNNs for frame-by-frame beat classification followed by autocorrelation to determine tempo. 
+* Böck, Sebastian, and Markus Schedl. **"Enhanced beat tracking with context-aware neural networks."** Proc. Int. Conf. Digital Audio Effects. 2011.
 
 
-* **Temporal Convolutional Networks for Musical Audio Beat Tracking** *Matthew Davies, E. P.; Bock, Sebastian (2019)* *DOI:* [10.23919/EUSIPCO.2019.8902578](https://doi.org/10.23919/EUSIPCO.2019.8902578) *Abstract:* Demonstrates the efficiency and performance of TCNs over recurrent approaches for music analysis. 
+* Böck, Sebastian, Florian Krebs, and Gerhard Widmer. **"Joint Beat and Downbeat Tracking with Recurrent Neural Networks."** ISMIR. 2016.
 
-* **Long Short-Term Memory** *Hochreiter, Sepp; Schmidhuber, Jürgen (1997)* *DOI:* [10.1162/neco.1997.9.8.1735](https://doi.org/10.1162/neco.1997.9.8.1735) *Note:* The foundational paper for LSTM architectures. 
 
+* Hochreiter, Sepp, and Jürgen Schmidhuber. **"Long short-term memory."** Neural computation 9.8 (1997): 1735-1780.
 
 
 ### State-Space & Probabilistic Modeling
 
-* **An Efficient State-Space Model for Joint Tempo and Meter Tracking** Krebs, Florian; Bock, Sebastian; Widmer, Gerhard *Abstract:* Proposes a new state-space discretisation to reduce computational complexity in Hidden Markov Models. 
+* Krebs, Florian, Sebastian Böck, and Gerhard Widmer. **"An Efficient State-Space Model for Joint Tempo and Meter Tracking."** ISMIR. 2015. 
 
 
-* **Rhythmic Pattern Modeling for Beat and Downbeat Tracking in Musical Audio** Krebs, Florian; Boeck, Sebastian; Widmer, Gerhard *Abstract:* Introduces a HMM-based system that learns rhythmic patterns directly from data to reduce octave errors. 
+* Krebs, Florian, Sebastian Böck, and Gerhard Widmer. **"Rhythmic Pattern Modeling for Beat and Downbeat Tracking in Musical Audio."** Ismir. 2013.
 
 
-* **Bayesian Modelling of Temporal Structure in Musical Audio** Whiteley, Nick; Cemgil, A. Taylan; Godsill, Simon *Abstract:* A probabilistic model of a "bar-pointer" mapping signals to latent periodic rhythmic patterns. 
+* Whiteley, Nick, Ali Taylan Cemgil, and Simon J. Godsill. **"Bayesian Modelling of Temporal Structure in Musical Audio."** ISMIR. 2006.
 
 
-* **A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition** Rabiner, L.R. (1989) *URL:* [IEEE Explore](http://ieeexplore.ieee.org/document/18626/) 
-
+* *Rabiner, Lawrence R. **"A tutorial on hidden Markov models and selected applications in speech recognition."** Proceedings of the IEEE 77.2 (2002): 257-286.
 
 
 ### Datasets & Benchmarks
 
-* **An Experimental Comparison of Audio Tempo Induction Algorithms** Gouyon, F. et al. (2006) *Note:* Related to the Ballroom dataset benchmarks. 
+* Gouyon, Fabien, et al. **"An experimental comparison of audio tempo induction algorithms."** IEEE Transactions on Audio, Speech, and Language Processing 14.5 (2006): 1832-1844.
 
 
-* **Particle Filtering Applied to Musical Tempo Tracking** Macleod, Malcolm; Hainsworth, Stephen (2004) *Note:* Relates to the Hainsworth dataset performance. 
+* Hainsworth, Stephen W., and Malcolm D. Macleod. **"Particle filtering applied to musical tempo tracking."** EURASIP Journal on Advances in Signal Processing 2004.15 (2004): 927847.
